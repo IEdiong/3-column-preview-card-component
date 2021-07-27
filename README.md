@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/mobilefirst-with-flexbox-Az2hNyht0)
 - Live Site URL: [here](https://iediong.github.io/3-column-preview-card-component/)
 
 ## My process
