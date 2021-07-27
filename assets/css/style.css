@@ -120,6 +120,7 @@ footer {
     height: 100vh;
     display: flex;
     align-items: center;
+    padding-top: 3em;
   }
 
   .container {
@@ -144,7 +145,6 @@ footer {
   }
 
   footer {
-    display: none;
     position: absolute;
     width: 100%;
     bottom: 0;
