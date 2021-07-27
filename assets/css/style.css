@@ -1,0 +1,146 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75); /* * paragraphs */
+  --very-light-gray: hsl(0, 0%, 95%); /* * background, headings, buttoons */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  color: var(--transparent-white);
+  background-color: var(--very-light-gray);
+  font-size: 0.94rem;
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.7em;
+}
+
+h2 {
+  color: var(--very-light-gray);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+
+.container {
+  width: 85%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.preview-card {
+  margin-top: 7em;
+  margin-bottom: 7em;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.card {
+  padding: 3.4em;
+}
+
+.card--orange {
+  background-color: var(--bright-orange);
+}
+
+.card--blue {
+  background-color: var(--dark-cyan);
+}
+
+.card--green {
+  background-color: var(--very-dark-cyan);
+}
+
+.card__heading {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+
+.card__cta {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: var(--very-light-gray);
+  padding: 0.7em 2em;
+  margin-top: 2em;
+  border-radius: 5em;
+}
+
+.card--orange .card__cta {
+  color: var(--bright-orange);
+}
+
+.card--blue .card__cta {
+  color: var(--dark-cyan);
+}
+.card--green .card__cta {
+  color: var(--very-dark-cyan);
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+.attribution {
+  margin: 0 auto;
+  font-size: 11px;
+  text-align: center;
+  color: var(--very-dark-cyan);
+}
+
+.attribution a {
+  /* color: hsl(228, 45%, 44%); */
+  color: var(--bright-orange);
+}
+
+@media (min-width: 1280px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    max-width: 964px;
+  }
+
+  .preview-card {
+    display: flex;
+    align-items: stretch;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0.5em;
+    overflow: hidden;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .card__cta {
+    margin-top: 5em;
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .attribution {
+    margin: 0 auto;
+  }
+}
