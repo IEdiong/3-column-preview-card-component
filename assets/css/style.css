@@ -26,7 +26,9 @@ body {
 h2 {
   color: var(--very-light-gray);
   font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.5rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .container {
@@ -43,7 +45,7 @@ h2 {
 }
 
 .card {
-  padding: 3.4em;
+  padding: 3em;
 }
 
 .card--orange {
@@ -59,8 +61,8 @@ h2 {
 }
 
 .card__heading {
-  margin-top: 1.4em;
-  margin-bottom: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .card__cta {
@@ -72,6 +74,7 @@ h2 {
   padding: 0.7em 2em;
   margin-top: 2em;
   border-radius: 5em;
+  transition: 0.3s ease;
 }
 
 .card--orange .card__cta {
@@ -83,6 +86,12 @@ h2 {
 }
 .card--green .card__cta {
   color: var(--very-dark-cyan);
+}
+
+.card__cta:hover {
+  color: var(--very-light-gray);
+  background-color: transparent;
+  outline: 2.5px solid var(--very-light-gray);
 }
 
 footer {
@@ -98,7 +107,6 @@ footer {
 }
 
 .attribution a {
-  /* color: hsl(228, 45%, 44%); */
   color: var(--bright-orange);
 }
 
@@ -127,6 +135,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 3.8em;
   }
 
   .card__cta {
