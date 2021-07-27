@@ -23,6 +23,10 @@ body {
   line-height: 1.7em;
 }
 
+.sr {
+  display: none;
+}
+
 h2 {
   color: var(--very-light-gray);
   font-family: 'Big Shoulders Display', cursive;
@@ -74,7 +78,7 @@ h2 {
   padding: 0.7em 2em;
   margin-top: 2em;
   border-radius: 5em;
-  transition: 0.3s ease;
+  transition: border 0.1s ease-in-out;
 }
 
 .card--orange .card__cta {
@@ -91,7 +95,8 @@ h2 {
 .card__cta:hover {
   color: var(--very-light-gray);
   background-color: transparent;
-  outline: 2.5px solid var(--very-light-gray);
+  border: 2.5px solid var(--very-light-gray);
+  padding: 0.53em 1.8em;
 }
 
 footer {
@@ -131,10 +136,6 @@ footer {
   }
 
   .card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
     padding: 3.8em;
   }
 
