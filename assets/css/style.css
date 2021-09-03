@@ -19,7 +19,7 @@ body {
   color: var(--transparent-white);
   background-color: var(--very-light-gray);
   font-size: 0.94rem;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   line-height: 1.7em;
 }
 
@@ -29,7 +29,7 @@ body {
 
 h2 {
   color: var(--very-light-gray);
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -37,7 +37,7 @@ h2 {
 
 .container {
   width: 85%;
-  max-width: 500px;
+  max-width: 390px;
   margin: 0 auto;
 }
 
