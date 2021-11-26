@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://www.frontendmentor.io/solutions/mobilefirst-with-flexbox-Az2hNyht0)
-- Live Site URL: [here](https://iediong.github.io/3-column-preview-card-component/)
+- Live Site URL: [here](https://iediong.github.io/fem-3-column-preview-card-component/)
 
 ## My process
 
